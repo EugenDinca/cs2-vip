@@ -39,7 +39,7 @@ namespace VIP;
 
 public class ConfigVIP : BasePluginConfig
 {
-    [JsonPropertyName("Prefix")] public string Prefix { get; set; } = $" {ChatColors.Default}[{ChatColors.Green}MadGames.eu{ChatColors.Default}]";
+    [JsonPropertyName("Prefix")] public string Prefix { get; set; } = $" {ChatColors.Default}[{ChatColors.Green}Strike-Zone{ChatColors.Default}]";
     [JsonPropertyName("GiveHPAfterKill")] public bool GiveHPAfterKill { get; set; } = true;
     [JsonPropertyName("GiveMoneyAfterKill")] public bool GiveMoneyAfterKill { get; set; } = true;
     [JsonPropertyName("AllowKillMessages")] public bool AllowKillMessages { get; set; } = true;
@@ -64,12 +64,12 @@ public class ConfigVIP : BasePluginConfig
 
 
     [JsonPropertyName("WelcomeMessage")] public string WelcomeMessage { get; set; } = $"Welcom on server you are BEST VIP!";
-    [JsonPropertyName("DBDatabase")] public string DBDatabase { get; set; } = "database";
-    [JsonPropertyName("DBUser")] public string DBUser { get; set; } = "user";
-    [JsonPropertyName("DBPassword")] public string DBPassword { get; set; } = "password";
-    [JsonPropertyName("DBHost")] public string DBHost { get; set; } = "localhost";
+    [JsonPropertyName("DBDatabase")] public string DBDatabase { get; set; } = "s2120_Strike-Zone";
+    [JsonPropertyName("DBUser")] public string DBUser { get; set; } = "u2120_u8wxF7Hd9p";
+    [JsonPropertyName("DBPassword")] public string DBPassword { get; set; } = ".D5qB5+tcc@2ePDlQE7ADbD8";
+    [JsonPropertyName("DBHost")] public string DBHost { get; set; } = "191.96.94.200";
     [JsonPropertyName("DBPort")] public int DBPort { get; set; } = 3306;
-    [JsonPropertyName("DBPrefix")] public string DBPrefix { get; set; } = "deadswim";
+    [JsonPropertyName("DBPrefix")] public string DBPrefix { get; set; } = "strike-zone";
 
     [JsonPropertyName("SpawnItems")] public List<string?> SpawnItems { get; set; } = new List<string?> { "weapon_healthshot", "item_assaultsuit" };
 
