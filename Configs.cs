@@ -69,7 +69,7 @@ public class ConfigVIP : BasePluginConfig
     [JsonPropertyName("DBPassword")] public string DBPassword { get; set; } = ".D5qB5+tcc@2ePDlQE7ADbD8";
     [JsonPropertyName("DBHost")] public string DBHost { get; set; } = "191.96.94.200";
     [JsonPropertyName("DBPort")] public int DBPort { get; set; } = 3306;
-    [JsonPropertyName("DBPrefix")] public string DBPrefix { get; set; } = "strike-zone";
+    [JsonPropertyName("DBPrefix")] public string DBPrefix { get; set; } = "Strike-Zone";
 
     [JsonPropertyName("SpawnItems")] public List<string?> SpawnItems { get; set; } = new List<string?> { "weapon_healthshot", "item_assaultsuit" };
 
